@@ -54,4 +54,12 @@ Find the final value that we are looking for e.g.: number smaller than the targe
 
 ## Smart Contracts
 
-It is basically an account controlled by code. It has different fields than a normal account per say. It has _balance_: Amount of ether this account owns, _storage_: Data storage for this contract and _code_: Raw machine code for this contract. Our code is compiled into the smart contract raw machine code. When the code is deployed to a network, then the contract is instantiated. But that code can be deployed to multiple networks. It behaves exactly the same as a class and a object in OOP programming. 
+It is basically an account controlled by code. It has different fields than a normal account per say. It has _balance_: Amount of ether this account owns, _storage_: Data storage for this contract and _code_: Raw machine code for this contract. Our code is compiled into the smart contract raw machine code. When the code is deployed to a network, then the contract is instantiated. But that code can be deployed to multiple networks. It behaves exactly the same as a class and a object in OOP programming.
+
+## Solidity
+
+-   Written in `*.sol` files
+-   Strongly typed
+-   Similar to javascript
+
+Most of the work is actually not is `Solidity` but around it with HTML, CSS and so on. Contract definition is going to be put into a dedicated compyler and it is going to produce Byte code ready for deployment and Application Binary Interface (ABI).
