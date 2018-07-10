@@ -62,4 +62,4 @@ It is basically an account controlled by code. It has different fields than a no
 -   Strongly typed
 -   Similar to javascript
 
-Most of the work is actually not is `Solidity` but around it with HTML, CSS and so on. Contract definition is going to be put into a dedicated compyler and it is going to produce Byte code ready for deployment and Application Binary Interface (ABI).
+Most of the work is actually not is `Solidity` but around it with HTML, CSS and so on. Contract definition is going to be put into a dedicated compyler and it is going to produce Byte code ready for deployment and Application Binary Interface (ABI). We can also leave to empy and then the contract is created and deployed. All code/data that we write is already available to everyone and exposed to the worls.

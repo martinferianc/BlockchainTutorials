@@ -17,7 +17,10 @@ contract Inbox {
     function setMessage(string newMessage) public{
         message = newMessage;
     }
-    function getMessage() public view returns (string){
+    // Function Name       Type        Return type
+    // Actually a little bit redundant, since Solidity
+    // Automatically creates its own function
+    function getMessage() public constant returns (string){
         return message;
     }
 }
