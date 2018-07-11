@@ -62,4 +62,28 @@ It is basically an account controlled by code. It has different fields than a no
 -   Strongly typed
 -   Similar to javascript
 
-Most of the work is actually not is `Solidity` but around it with HTML, CSS and so on. Contract definition is going to be put into a dedicated compyler and it is going to produce Byte code ready for deployment and Application Binary Interface (ABI). We can also leave to empy and then the contract is created and deployed. All code/data that we write is already available to everyone and exposed to the worls.
+Most of the work is actually not is `Solidity` but around it with HTML, CSS and so on. Contract definition is going to be put into a dedicated compyler and it is going to produce Byte code ready for deployment and Application Binary Interface (ABI). We can also leave to empy and then the contract is created and deployed. All code/data that we write is already available to everyone and exposed to the world.
+
+When we want to change something in the blockchain, we have to submit a transaction aka notify the whole world what is going on with us.
+
+### Functions
+
+![alt text](figs/s1_functions.png)
+
+Basically when we try to get information, e.g.: call a function it is ok and it does not cost money and most importantly it does not have to be mined = it is free. If we have to modify the data, we have to submit a transcation.
+
+#### wei vs. Ether
+
+1 Ether is 1 \* 10 ^ 18, it is basically cents for ether. There are also gwei and finney...
+
+#### Gas and Transactions
+
+We write some code and we would like to run it somewhere, we have to pay them right? The same is true in the world of Ethereum, the money is in the form of gas.
+
+_gasPrice_: Amount of Wei the sender is willing to pay per unit gas to get this transaction processed
+
+_startGas_ Units of gas that can be spent over this transaction
+
+#### Mnemonic Phrases
+
+Random words, translated into accounts information (multiple).
