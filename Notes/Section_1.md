@@ -87,3 +87,7 @@ _startGas_ Units of gas that can be spent over this transaction
 #### Mnemonic Phrases
 
 Random words, translated into accounts information (multiple).
+
+#### Truffle
+
+Creates contracts, enables local testing and enables deployment 
