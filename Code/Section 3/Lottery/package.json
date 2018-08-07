@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ethereumjs-wallet": "^0.6.1",
     "ganache-cli": "^6.1.6",
     "mocha": "^5.2.0",
     "solc": "^0.4.24",
