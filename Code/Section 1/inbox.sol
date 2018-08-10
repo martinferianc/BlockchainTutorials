@@ -11,7 +11,7 @@ contract Inbox {
     // We define the constructor of that smart contract
     constructor(string initialMessage) public {
         message = initialMessage;
-    }a
+    }
 
     // Member functions
     function setMessage(string newMessage) public{
